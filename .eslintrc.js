@@ -4,16 +4,13 @@ module.exports = {
     ecmaVersion: 6,
     sourceType: 'module'
   },
-
   extends: [
     'eslint:recommended',
     'plugin:ember-suave/recommended'
   ],
-
   env: {
     'browser': true
   },
-
   globals: {
     '$': true,
     'Bloodhound': true,
@@ -26,7 +23,6 @@ module.exports = {
     'toolbox': true,
     'Uint8Array': true
   },
-
   rules: {
     'camelcase': 0,
     'ember-suave/no-direct-property-access': 0,
